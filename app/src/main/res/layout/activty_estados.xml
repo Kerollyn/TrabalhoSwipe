@@ -6,36 +6,66 @@
     android:layout_height="match_parent"
     android:id="@+id/layout"
     android:orientation="vertical"
+    android:gravity="center_horizontal">
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvRegioes"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="#dbdbfl"
-        android:hint="Regioes"
-        android:text="Regiões"
-        android:textColor="#000"
-        android:textSize="40dp"
-        android:gravity="center_vertical"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/abaixo"
+        android:id="@+id/ivCima"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regioes"
+        android:textSize="40dp"/>
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:src="@drawable/acima"
+        android:id="@+id/ivBaixo"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
+        android:padding="10dp">
 
-        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Estados"
-            android:textSize="40dp"
-            android:hint="Estados"/>
+            <ImageView
+                android:id="@+id/ivEsquerda"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:src="@drawable/esquerda" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estados"
+                android:textSize="40dp" />
+
+
+            <ImageView
+                android:id="@+id/ivDireita"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:src="@drawable/direita" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIM"
+                android:textSize="40dp" />
+        </LinearLayout>
 
     </LinearLayout>
 
