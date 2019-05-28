@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TrabalhosEstados</string>
+
+    <string-array name="Sul">
+        <item>Rio Grande do Sul</item>
+        <item>Santa Catarina</item>
+        <item>Parana</item>
+    </string-array>
+
+    <string-array name="Sudeste">
+        <item>São Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Espirito Santo</item>
+    </string-array>
+
+    <string-array name="Centro_Oeste">
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Goiás</item>
+        <item>Distrito Federal</item>
+        <item>Tocantins</item>
+    </string-array>
+
+    <string-array name="Nordeste">
+        <item>Bahia</item>
+        <item>Sergipe</item>
+        <item>Alagoas</item>
+        <item>Pernambuco</item>
+        <item>Paraíba</item>
+        <item>Rio Grande do Norte</item>
+        <item>Ceará</item>
+        <item>Piauí</item>
+        <item>Maranhão</item>
+    </string-array>
+
+    <string-array name="Norte">
+        <item>Pará</item>
+        <item>Amapá</item>
+        <item>Roraima</item>
+        <item>Amazonas</item>
+        <item>Rondônia</item>
+        <item>Acre</item>
+    </string-array>
+
+</resources>
